@@ -1,0 +1,45 @@
+/*
+ * SiteForge secondary page.
+ */
+
+layout:
+    lang = "en"
+    dir = "ltr"
+    title = "About — SiteForge"
+
+    header:
+        background = "#111827"
+        color = "white"
+        padding = "24px"
+        heading: size = 1 content = "About SiteForge" font_size = "32px" end
+    end
+
+    box:
+        padding = "48px 24px"
+        max_width = "820px"
+        margin = "0 auto"
+        heading: size = 2 content = "A small project with a practical purpose." end
+        paragraph: content = "SiteForge is a multi-file website starter demonstrating Salam's built-in layout DSL for real web pages." end
+        paragraph: content = "Customize the copy, styles, sections, and links to turn it into a portfolio or client website." end
+        link: source = "index.html" content = "Back to home" color = "#2563eb" end
+    end
+
+    box:
+        padding = "32px 24px"
+        background = "#f3f4f6"
+        heading: size = 3 content = "What it demonstrates" end
+        list:
+            item: content = "Multiple Salam layout pages" end
+            item: content = "Structured responsive sections" end
+            item: content = "Typed layout attributes checked by the compiler" end
+            item: content = "HTML/CSS/JS output from Salam" end
+        end
+    end
+
+    footer:
+        background = "#111827"
+        color = "white"
+        padding = "24px"
+        paragraph: content = "SiteForge — Salam Programming Language community project." end
+    end
+end
