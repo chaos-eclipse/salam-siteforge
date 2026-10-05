@@ -1,0 +1,3 @@
+# SiteForge uses Salam's official compiler tooling.
+# See README.md for the documented `salam layout build` commands.
+services: {}
