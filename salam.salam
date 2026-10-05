@@ -1,0 +1,86 @@
+/*
+ * Salam SiteForge
+ * A small, responsive portfolio starter built with Salam's layout DSL.
+ */
+
+layout:
+    lang = "en"
+    dir = "ltr"
+    title = "SiteForge — Portfolio Starter"
+
+    header:
+        background = "#111827"
+        color = "white"
+        padding = "24px"
+        heading: size = 1 content = "SiteForge" font_size = "32px" end
+        paragraph: content = "A clean portfolio starter built with Salam." end
+    end
+
+    nav:
+        padding = "14px 24px"
+        background = "#f3f4f6"
+        link: source = "#services" content = "Services" color = "#111827" end
+        link: source = "#work" content = "Work" color = "#111827" end
+        link: source = "about.html" content = "About" color = "#111827" end
+    end
+
+    box:
+        id = "hero"
+        padding = "64px 24px"
+        max_width = "900px"
+        margin = "0 auto"
+        heading: size = 2 content = "Turn an idea into a real website." font_size = "40px" end
+        paragraph: content = "Use this starter for a portfolio, freelancer profile, small business, or landing page." font_size = "18px" end
+        link: source = "#services" content = "Explore the starter" color = "#2563eb" end
+    end
+
+    box:
+        id = "services"
+        padding = "32px 24px"
+        background = "#f9fafb"
+        heading: size = 2 content = "Services" end
+        box:
+            display = "grid"
+            grid_template_columns = "repeat(auto-fit, minmax(220px, 1fr))"
+            gap = "16px"
+            box:
+                padding = "20px"
+                background = "white"
+                border_radius = "10px"
+                heading: size = 3 content = "Website Design" end
+                paragraph: content = "Responsive layouts and polished landing pages." end
+            end
+            box:
+                padding = "20px"
+                background = "white"
+                border_radius = "10px"
+                heading: size = 3 content = "Website Building" end
+                paragraph: content = "A practical starter you can customize for a real project." end
+            end
+            box:
+                padding = "20px"
+                background = "white"
+                border_radius = "10px"
+                heading: size = 3 content = "AI-Assisted Work" end
+                paragraph: content = "A simple foundation for fast iteration and content updates." end
+            end
+        end
+    end
+
+    box:
+        id = "work"
+        padding = "32px 24px"
+        max_width = "900px"
+        margin = "0 auto"
+        heading: size = 2 content = "Starter project" end
+        paragraph: content = "Replace this section with your projects, case studies, screenshots, or client work." end
+        link: source = "about.html" content = "See the about page" color = "#2563eb" end
+    end
+
+    footer:
+        background = "#111827"
+        color = "white"
+        padding = "24px"
+        paragraph: content = "Built with Salam SiteForge." end
+    end
+end
