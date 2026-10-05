@@ -1,0 +1,16 @@
+/* Copy this page and replace the content to start a personal portfolio. */
+
+layout:
+    title = "Your Name — Portfolio"
+    header:
+        padding = "24px"
+        heading: size = 1 content = "Your Name" end
+        paragraph: content = "Website designer and digital freelancer." end
+    end
+    box:
+        padding = "48px 24px"
+        heading: size = 2 content = "Selected Work" end
+        paragraph: content = "Replace this with your projects and services." end
+        link: source = "index.html" content = "Use SiteForge" color = "#2563eb" end
+    end
+end
