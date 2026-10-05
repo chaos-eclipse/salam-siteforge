@@ -1,0 +1,6 @@
+*.exe
+*.o
+*.out
+build/
+siteforge
+.DS_Store
