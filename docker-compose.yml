@@ -1,3 +1,9 @@
-# SiteForge uses Salam's official compiler tooling.
-# See README.md for the documented `salam layout build` commands.
-services: {}
+services:
+  siteforge:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    working_dir: /workspace
+    command: ["layout", "build", "salam.salam"]
+    volumes:
+      - .:/workspace
